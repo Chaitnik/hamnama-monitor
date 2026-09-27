@@ -1,0 +1,13 @@
+{
+  "subscribers": [],
+  "telegram_offset": 0,
+  "latest_check": null,
+  "previous_check": null,
+  "consecutive_failures": 0,
+  "consecutive_successes": 0,
+  "incident_start": null,
+  "alert_sent": false,
+  "failed_checks_during_incident": 0,
+  "last_successful_check": null,
+  "last_failed_check": null
+}
