@@ -1,13 +1,46 @@
 {
-  "subscribers": [],
-  "telegram_offset": 0,
-  "latest_check": null,
-  "previous_check": null,
-  "consecutive_failures": 0,
-  "consecutive_successes": 0,
-  "incident_start": null,
   "alert_sent": false,
+  "alert_state": "HEALTHY",
+  "consecutive_degraded": 0,
+  "consecutive_down": 0,
+  "consecutive_failures": 0,
+  "consecutive_healthy": 1,
+  "consecutive_successes": 0,
   "failed_checks_during_incident": 0,
-  "last_successful_check": null,
-  "last_failed_check": null
+  "incident_start": null,
+  "last_failed_check": null,
+  "last_successful_check": "2026-09-27 16:47:18 UTC",
+  "latest_check": {
+    "api": {
+      "error": null,
+      "error_type": null,
+      "final_url": "https://hamnama.net/api/health",
+      "json_summary": null,
+      "redirect_count": 0,
+      "redirect_history": [],
+      "response_time_ms": 819.4,
+      "status_code": 200,
+      "status_text": "OK",
+      "success": true,
+      "url": "https://hamnama.net/api/health"
+    },
+    "homepage": {
+      "error": null,
+      "error_type": null,
+      "final_url": "https://hamnama.net/",
+      "json_summary": null,
+      "redirect_count": 0,
+      "redirect_history": [],
+      "response_time_ms": 762.3,
+      "status_code": 200,
+      "status_text": "OK",
+      "success": true,
+      "url": "https://hamnama.net"
+    },
+    "overall": "HEALTHY",
+    "timestamp": "2026-09-27 16:47:18 UTC"
+  },
+  "previous_check": null,
+  "subscribers": [],
+  "telegram_offset": 0
 }
