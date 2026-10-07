@@ -4,13 +4,43 @@
   "consecutive_degraded": 0,
   "consecutive_down": 0,
   "consecutive_failures": 0,
-  "consecutive_healthy": 53,
+  "consecutive_healthy": 54,
   "consecutive_successes": 0,
   "failed_checks_during_incident": 0,
   "incident_start": null,
   "last_failed_check": null,
-  "last_successful_check": "2026-10-06 20:55:11 UTC",
+  "last_successful_check": "2026-10-07 00:20:36 UTC",
   "latest_check": {
+    "api": {
+      "error": null,
+      "error_type": null,
+      "final_url": "https://hamnama.net/api/health",
+      "json_summary": null,
+      "redirect_count": 0,
+      "redirect_history": [],
+      "response_time_ms": 769.8,
+      "status_code": 200,
+      "status_text": "OK",
+      "success": true,
+      "url": "https://hamnama.net/api/health"
+    },
+    "homepage": {
+      "error": null,
+      "error_type": null,
+      "final_url": "https://hamnama.net/",
+      "json_summary": null,
+      "redirect_count": 0,
+      "redirect_history": [],
+      "response_time_ms": 867.3,
+      "status_code": 200,
+      "status_text": "OK",
+      "success": true,
+      "url": "https://hamnama.net"
+    },
+    "overall": "HEALTHY",
+    "timestamp": "2026-10-07 00:20:36 UTC"
+  },
+  "previous_check": {
     "api": {
       "error": null,
       "error_type": null,
@@ -39,36 +69,6 @@
     },
     "overall": "HEALTHY",
     "timestamp": "2026-10-06 20:55:11 UTC"
-  },
-  "previous_check": {
-    "api": {
-      "error": null,
-      "error_type": null,
-      "final_url": "https://hamnama.net/api/health",
-      "json_summary": null,
-      "redirect_count": 0,
-      "redirect_history": [],
-      "response_time_ms": 6257.8,
-      "status_code": 200,
-      "status_text": "OK",
-      "success": true,
-      "url": "https://hamnama.net/api/health"
-    },
-    "homepage": {
-      "error": null,
-      "error_type": null,
-      "final_url": "https://hamnama.net/",
-      "json_summary": null,
-      "redirect_count": 0,
-      "redirect_history": [],
-      "response_time_ms": 1025.8,
-      "status_code": 200,
-      "status_text": "OK",
-      "success": true,
-      "url": "https://hamnama.net"
-    },
-    "overall": "HEALTHY",
-    "timestamp": "2026-10-06 16:02:24 UTC"
   },
   "subscribers": [
     1992916962,
