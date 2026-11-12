@@ -4,13 +4,43 @@
   "consecutive_degraded": 0,
   "consecutive_down": 0,
   "consecutive_failures": 0,
-  "consecutive_healthy": 1,
+  "consecutive_healthy": 2,
   "consecutive_successes": 0,
   "failed_checks_during_incident": 0,
   "incident_start": null,
   "last_failed_check": "2026-11-11 21:51:38 UTC",
-  "last_successful_check": "2026-11-12 02:33:48 UTC",
+  "last_successful_check": "2026-11-12 10:13:35 UTC",
   "latest_check": {
+    "api": {
+      "error": null,
+      "error_type": null,
+      "final_url": "https://hamnama.net/api/health",
+      "json_summary": null,
+      "redirect_count": 0,
+      "redirect_history": [],
+      "response_time_ms": 911.2,
+      "status_code": 200,
+      "status_text": "OK",
+      "success": true,
+      "url": "https://hamnama.net/api/health"
+    },
+    "homepage": {
+      "error": null,
+      "error_type": null,
+      "final_url": "https://hamnama.net/",
+      "json_summary": null,
+      "redirect_count": 0,
+      "redirect_history": [],
+      "response_time_ms": 1612.7,
+      "status_code": 200,
+      "status_text": "OK",
+      "success": true,
+      "url": "https://hamnama.net"
+    },
+    "overall": "HEALTHY",
+    "timestamp": "2026-11-12 10:13:35 UTC"
+  },
+  "previous_check": {
     "api": {
       "error": null,
       "error_type": null,
@@ -39,36 +69,6 @@
     },
     "overall": "HEALTHY",
     "timestamp": "2026-11-12 02:33:48 UTC"
-  },
-  "previous_check": {
-    "api": {
-      "error": "Request timed out after 10.0s: HTTPSConnectionPool(host='hamnama.net', port=443): Max retries exceeded with url: /api/health (Caused by ConnectTimeoutError(<HTTPSConnection(host='hamnama.net', port=443) at 0x7cc54448a750>, 'Connection to hamnama.net timed out. (connect timeout=10.0)'))",
-      "error_type": "timeout",
-      "final_url": null,
-      "json_summary": null,
-      "redirect_count": 0,
-      "redirect_history": [],
-      "response_time_ms": 10171.8,
-      "status_code": null,
-      "status_text": null,
-      "success": false,
-      "url": "https://hamnama.net/api/health"
-    },
-    "homepage": {
-      "error": "Request timed out after 10.0s: HTTPSConnectionPool(host='hamnama.net', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='hamnama.net', port=443) at 0x7cc543e6de50>, 'Connection to hamnama.net timed out. (connect timeout=10.0)'))",
-      "error_type": "timeout",
-      "final_url": null,
-      "json_summary": null,
-      "redirect_count": 0,
-      "redirect_history": [],
-      "response_time_ms": 10128.7,
-      "status_code": null,
-      "status_text": null,
-      "success": false,
-      "url": "https://hamnama.net"
-    },
-    "overall": "DOWN",
-    "timestamp": "2026-11-11 21:51:38 UTC"
   },
   "subscribers": [
     1992916962,
